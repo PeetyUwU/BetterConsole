@@ -1,12 +1,17 @@
 {
-  "name": "betterconsole",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"name": "betterconsole",
+	"version": "1.0.0",
+	"main": "./index.js",
+	"typings": "typings/index.d.ts",
+	"typescript": {
+		"definition": "typings/index.d.ts"
+	},
+	"type": "commonjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
 }

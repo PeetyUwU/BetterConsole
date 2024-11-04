@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"listEmittedFiles": false,
+		"outDir": "dist",
+		"declaration": true,
+		"declarationDir": "typings",
+		"module": "commonjs",
+		"target": "es6",
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"pretty": true,
+		"allowJs": true,
+		"jsx": "react",
+		"lib": ["es2016", "dom"]
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["./node_modules/**/*"]
+}
